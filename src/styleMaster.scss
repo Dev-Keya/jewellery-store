@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Playfair_Display';
+    src: url('../public/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf')format("truetype");
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair_Display extra bold';
+    src: url('../public/assets/fonts/Playfair_Display/PlayfairDisplay-ExtraBold.ttf')format("truetype");
+}
+
+@font-face {
+    font-family: 'GreyQo';
+    src: url('../public/assets/fonts/Grey_Qo/GreyQo-Regular.ttf')format("truetype");
+}
+
+
+html {
+    font-family: 'Playfair_Display';
+    background-color: #ffefe3;
+
+}
+
+.club {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page {
+    .main-container {
+        max-width: 1000px;
+        width: 70vw;
+        height: 500px;
+        /* border: 2px solid #ffffff; */
+        margin: 30px;
+        background-color: #b781614a;
+        border-radius: 30px;
+        //box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+        .left-section {
+            position: relative;
+            width: 353px;
+            height: 545px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(/public/assets/Images/banner-img.png);
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+            top: -43px;
+        }
+
+        .right-section {
+            //border: 2px solid red;
+            padding-top: 50px;
+
+            .text-block {
+                .label-new-collection {
+                    border: 1.5px solid whitesmoke;
+                    width: max-content;
+                    padding: 5px;
+                    margin-bottom: 0px;
+                }
+
+                .slogan {
+                    font-size: 60px;
+                    font-family: 'Playfair_Display extra bold';
+                    //border: 2px solid red;
+                    color: #5c5252;
+                    margin-bottom: 18px;
+                    margin-top: 10px;
+                }
+
+                .subtitle {
+                    font-family: 'GreyQo';
+                    font-size: 40px;
+                    margin-top: 0px;
+                    color: antiquewhite
+                }
+
+                .exploreNow {
+                    padding: 12px;
+                    background-color: #f3b767;
+                    border: none;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
